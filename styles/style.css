@@ -27,8 +27,6 @@
     background-color: rgb(100, 171, 237);
     height: 50%;
     padding: 30px;
-    display: flex;
-    flex-direction: column;
     gap: 20px;
 }
 
@@ -47,9 +45,18 @@
 }
 
 .boton {
-    fle
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    background-color:rgb(101, 207, 101);
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    color: white;
 }
 
 .texto {
-
+    width: 500px;
+    font-size: 10px;
 }
