@@ -1,3 +1,6 @@
+@use 'layout/section-white';
+@use 'layout/footer';
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -31,10 +34,8 @@ a {
 .menu {
     display: flex;
     gap: 25px;
-    color: white;
-   
+    color: white;  
 }
-
 
 .hero {
     background-color: rgb(100, 171, 237);
@@ -44,27 +45,21 @@ a {
     position: relative;
     background-image: url("../images/premium_dancer.png");
     background-repeat: no-repeat;
-    background-position: right bottom;
-    
-    
+    background-position: right bottom;   
 }
 
-
-.main {
+.section-blue {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     height: 150vh;
-
 }
+
 .titulo {
     font-size: 70px;
-
 }
 
 .subtitulo {
    font-size: 20px;
-   
-
 }
 
 .boton {
@@ -86,14 +81,9 @@ a {
     bottom: 20px;
 }
 
-
-    
-
 .dancer {
     max-width: 100%;
     height: auto;
-
-
 }
 
 /*Media quieres*/
@@ -107,6 +97,4 @@ a {
         text-align: center;
         gap: 15px;
     }
-
-
 } 
