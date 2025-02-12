@@ -1,0 +1,12 @@
+.grid-container {
+    // display: grid;
+    // background-color: aqua;
+    // grid-template-column: repeat (5, 1fr);
+    // grid-template-row: repeat (5, 1fr);
+background-color: aqua;
+width: 100%;
+display: grid;
+grid-template-columns: (5, 1fr);
+grid-template-rows: (5, 1fr);
+
+}
