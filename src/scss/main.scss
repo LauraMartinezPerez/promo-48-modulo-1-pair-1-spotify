@@ -1,6 +1,6 @@
 @use 'layout/section-white';
 @use 'layout/footer';
-
+@use "core/variables" as vars;
 
 * {
     margin: 0;
