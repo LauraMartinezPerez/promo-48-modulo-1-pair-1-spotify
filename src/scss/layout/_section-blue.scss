@@ -1,7 +1,7 @@
+@use "../core/variables" as vars;
 
 .hero {
-    background-color: rgb(100, 171, 237);
-    width: 100%;
+    background-color: vars.$color-bg-section-blue;
     padding: 30px;
     position: relative;
     background-image: url("../images/premium_dancer.png");
@@ -11,8 +11,8 @@
 }
 
 .section-blue {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    font-family: vars.$font-main;
+    color: vars.$color-main-font;
 }
 
 .titulo {
@@ -27,12 +27,12 @@
     display: block;
     margin-top: 60px;
     margin-bottom: 90px;
-    background-color:rgb(101, 207, 101);
+    background-color: vars.$color-button;
     width: 200px;
     height: 50px;
     border-radius: 50px;
     border: none;
-    color: white;
+    color: vars.$color-main-font;
 }
 
 .texto {

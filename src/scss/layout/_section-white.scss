@@ -1,12 +1,44 @@
-.grid-container {
-    // display: grid;
-    // background-color: aqua;
-    // grid-template-column: repeat (5, 1fr);
-    // grid-template-row: repeat (5, 1fr);
-background-color: aqua;
-width: 100%;
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
+@use "../core/variables" as vars;
+
+.section {
+    
+    font-family: vars.$font-main;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 
 }
+.title {
+    
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+
+}
+
+.article {
+  
+    display: flex;
+    justify-content: flex-start;;
+    gap: 20px;
+    margin-bottom: 20%;
+    padding-left: 100px;
+   
+}
+
+.slogan{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+    
+
+}
+
+.img {
+    max-width: 80px;
+    width: 100%;
+    height: auto;
+}
+

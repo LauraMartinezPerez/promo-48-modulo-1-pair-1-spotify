@@ -1,13 +1,13 @@
-
+@use "../core/variables" as vars;
 
 .header {
-    background-color: rgb(0, 0, 0);
+    background-color: vars.$color-bg-header;
     display: flex;
     height: auto;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: vars.$font-main;
     font-size: 90%;
     top: 0;
     position: sticky;
@@ -22,7 +22,7 @@
 .menu {
     display: flex;
     gap: 25px;
-    color: white;  
+    color: vars.$color-main-font;  
 }
 
 /*Media quieres*/
