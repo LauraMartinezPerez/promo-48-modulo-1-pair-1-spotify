@@ -1,0 +1,30 @@
+@use "../core/variables" as vars;
+
+* {
+    font-family: vars.$font-main;
+    
+    
+}
+
+.title {
+    margin-top: 20px;
+
+}
+
+.personal-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    border: 0;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+    
+}
