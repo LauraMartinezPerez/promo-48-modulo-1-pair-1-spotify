@@ -15,7 +15,19 @@
 <form class="form" action="https://formspree.io/f/{form_id}" method="post">
     <fieldset class="personal-data" >
     <label for="email">¿Cuál es tu correo electrónico?</label>
-    <input id="email" name="Email" id="email" type="email">
+    <input id="email" name="Email" type="email" placeholder="Pon tu correo electrónico." required>
+   
+    <label for="email-confirm">Confirma el correo eléctrónico</label>
+    <input id="email-confirm" name="Email" type="email" placeholder="Vuelve a poner tu correo electrónico." required>
+
+    <label for="password">Crea una contraseña</label>
+    <input id="password" name="password" type="password" placeholder="Crea una contraseña." required>
+
+    <label for="password">¿Cómo quieres que te llamemos?</label>
+    <input id="nickname" name="nickname" type="text" placeholder="Pon un nombre de perfil." required>
+
+    <p>Esto aparece en tu perfil.</p>
+
 
 
 
