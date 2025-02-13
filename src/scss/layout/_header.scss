@@ -14,9 +14,14 @@
     z-index: 1;
 }
 
+.hamburguer {
+    display: none;
+}
+
 .logo {
     width: 120px;
     height: 35px;
+
 }
 
 .menu {
@@ -28,7 +33,7 @@
 /*Media quieres*/
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .header {
         flex-direction: column;
         height: auto;
@@ -37,3 +42,34 @@
         gap: 15px;
     }
 } 
+
+@media (max-width: 480px) {
+    
+    .header {
+        background-color: vars.$color-bg-header;
+        font-family: vars.$font-main;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: sticky;
+        z-index: 1;
+    }
+
+    .hamburguer {
+        display: flex;
+         width: 10%;
+         margin-left:auto ;
+     }
+     
+    .logo {
+        width: 120px;
+        height: 35px;
+    }
+    
+   
+    .menu {
+        display: none;
+    }
+
+}

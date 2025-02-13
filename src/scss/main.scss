@@ -3,14 +3,9 @@
 @use 'layout/section-white';
 @use 'layout/footer';
 @use 'layout/formulario';
+@use 'core/reset';
 @use "core/variables" as vars;
 
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-}
 
 a {
     text-decoration: none;

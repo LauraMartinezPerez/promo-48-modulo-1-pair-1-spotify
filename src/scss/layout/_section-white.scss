@@ -1,6 +1,54 @@
 @use "../core/variables" as vars;
 
 .section {
+    font-family: vars.$font-main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr;
+  
+    
+}
+
+.title {
+    
+    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+  
+    
+}
+
+.article {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+      
+  }
+
+  .img {
+    max-width: 100px;
+    max-height: 100px;
+
+}
+
+
+@media (max-width: 1000px) {
+.section {
     
     font-family: vars.$font-main;
     display: grid;
@@ -33,12 +81,12 @@
   flex-direction: column;
   gap: 15px;
     
-
 }
 
 .img {
-    max-width: 80px;
-    width: 100%;
-    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+
 }
 
+}
