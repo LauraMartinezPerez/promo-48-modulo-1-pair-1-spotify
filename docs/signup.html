@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+  <link rel="stylesheet" href="./assets/main-ab46952a.css">
+</head>
+<body>
+
+    <h1 class="title">Regístrate con tu correo electrónico</h1>
+
+  <section class="section">
+    <form class="form" action="https://dev.adalab.es/api/form">
+      <fieldset>
+        <legend class="fieldset">Datos de registro</legend>
+          <label for="email">¿Cual es tu correo electrónico?</label> 
+          <input class="input-box" id="email" name="email" type="email" placeholder="Pon tu correo electrónico.">
+
+          <label for="re-email">Confirma el correo electrónico</label> 
+          <input class="input-box" id="re-email" name="re-email" type="email" placeholder="Vuelve a poner tu correo electrónico.">
+
+          <label for="pass">Crea una contraseña</label> 
+          <input class="input-box" id="pass" name="pass" type="password" placeholder="Crea una contraseña">
+      </fieldset>
+
+      <fieldset>
+        <legend class="fieldset">Datos personales</legend>
+          <label for="user">¿Como quieres que te llamemos?</label> 
+          <input class="input-box" id="user" name="user" type="text" placeholder="Pon un nombre de perfil.">
+
+          <label>¿Cual es tu fecha de nacimiento?</label> 
+            <div class="birthday-section">
+              <div class="datos-nacimiento">
+                <label for="day-birthday">Día</label>
+                <input class="input-box" id="day-birthday" name="day-birthday" type="number" placeholder="DD">
+              </div>
+             
+              <div class="datos-nacimiento">
+                <label for="month-birthday">Mes</label>
+                <select class="input-box" id="month-birthday" name="month-birthday">
+                  <option class="input-select" value="">Selecciona mes</option>
+                  <option class="input-select" value="enero">Enero</option>
+                  <option class="input-select" value="febrero">Febrero</option>
+                  <option class="input-select" value="marzo">Marzo</option>
+                  <option class="input-select" value="abril">Abril</option>
+                  <option class="input-select" value="mayo">Mayo</option>
+                  <option class="input-select" value="junio">Junio</option>
+                  <option class="input-select" value="julio">Julio</option>
+                  <option class="input-select" value="agosto">Agosto</option>
+                  <option class="input-select" value="septimebre">Septiembre</option>
+                  <option class="input-select" value="octubre">Octubre</option>
+                  <option class="input-select" value="noviembre">Noviembre</option>
+                  <option class="input-select" value="diciembre">Diciembre</option>
+                </select>
+              </div>
+
+              <div class="datos-nacimiento">
+                <label for="year-birthday">Año</label>
+                <input class="input-box" id="year-birthday" name="year-birthday" type="number" placeholder="AAAA">
+              </div>
+            </div>
+              
+                <p>¿Cual es tu género?</p>
+                <div class="genero">
+                <label for="genero-hombre">
+                  <input  class="radio" id="genero-hombre" name="genero" type="radio" value="hombre"> Hombre</label>
+                  <label for="genero-mujer">
+                  <input class="radio" id="genero-mujer" name="genero" type="radio" value="mujer"> Mujer</label>
+                  <label for="genero-nobinario">
+                  <input class="radio" id="genero-nobinario" name="genero" type="radio" value="nobinario"> No binario</label> 
+              </div>
+
+              <div class="checkbox">
+                <label for="news">
+                  <input id="news" name="news"  type="checkbox" value="news"> Quiero que me envíes novedades y ofertas de Spotify
+                </label>
+                <label for="lopd">
+                  <input id="lopd" name="lopd" type="checkbox" value="yes"> Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser transferidos a un país de fuera de EEE, tal y como se recoge en nuestra pPolítica de Privacidad.
+                </label>
+            </div>
+      </fieldset>
+
+      <div class="boton-container">
+        <button class="boton-register" type="submit">Regístrate</button>
+        <button class="boton-register" type="reset">Limpiar formulario</button>
+      </div>
+    </form>
+
+  </section>
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1 class="title" >Registrarte con tu correo electrónico</h1>
+
+<form class="form" action="https://formspree.io/f/mdkalyeb" method="post">
+    <fieldset class="personal-data" >
+    <label for="email">¿Cuál es tu correo electrónico?</label>
+    <input id="email" name="Email" type="email" placeholder="Pon tu correo electrónico." required>
+   
+    <label for="email-confirm">Confirma el correo eléctrónico</label>
+    <input id="email-confirm" name="Email" type="email" placeholder="Vuelve a poner tu correo electrónico." required>
+
+    <label for="password">Crea una contraseña</label>
+    <input id="password" name="password" type="password" placeholder="Crea una contraseña." required>
+
+    <label for="password">¿Cómo quieres que te llamemos?</label>
+    <input id="nickname" name="nickname" type="text" placeholder="Pon un nombre de perfil." required>
+
+    <p>Esto aparece en tu perfil.</p>
+
+    <button type="submit">Submit</button>
+</fieldset>
+  </form> -->
